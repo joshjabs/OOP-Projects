@@ -37,7 +37,6 @@ class Location {
 
 
 }
-
 class Human extends Location{
   constructor (x,y,color){
     super(x,y);
@@ -53,10 +52,6 @@ class Human extends Location{
 
 
 }
-
-
-
-
 class Console {
 	constructor(id) {
 		this.element = document.getElementById(id);
@@ -69,7 +64,6 @@ class Console {
 let console = new Console("console");
 let human = new Human(3,4,"red");
 
-
 function clearMap() {
   var i, j;
   for(i=0;i<10;i++){
@@ -79,12 +73,7 @@ function clearMap() {
   }
 
 }
-
-
-
-var i = 0, howManyTimes = 1000;
-
-function f() {
+function GameLoop() {
     human.move();
     clearMap();
     human.drawlocation();
@@ -96,9 +85,5 @@ function f() {
     }
 }
 
-
-
-
-
-
-f();
+var i = 0, howManyTimes = 1000;
+GameLoop();
