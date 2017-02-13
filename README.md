@@ -5,11 +5,11 @@
     Location Class has several properties and functions.
     Human Class extends Location class and adds a color.
 
-#Java Assignment # 1: DONE-ISH
+#Java Assignment # 1: DONE
     Has multiple classes that extend the car class
     Main function uses a Car type ArrayList
     Tried to compile using JDK command line tools
-    Can't compile with classpath error. Package name / File Structure?
+    Compiles now with wrapped build commands - /bin/bash -c 'command'
 
 #Programming assignment # 1: IN PROGRESS
     Make an object-oriented framework for a sample academic application:

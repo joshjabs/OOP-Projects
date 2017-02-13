@@ -7,7 +7,7 @@ providers: [
           project: "/home/user/Desktop/OOP-Projects/JavaAssignment1"
           source: "/home/user/Desktop/OOP-Projects/JavaAssignment1/.build-tools.cson"
           name: "Build"
-          command: "javac -d src/car -s src src/Main.java"
+          command: "/bin/bash -c 'javac -d classes -s src src/Main.java $(find src -name \"*.java\")'"
           wd: "."
           env: {}
           modifier: {}
@@ -25,6 +25,25 @@ providers: [
               queue_in_buffer: true
               colors: false
               stdin: false
+          version: 2
+        }
+        {
+          project: "/home/user/Desktop/OOP-Projects/JavaAssignment1"
+          source: "/home/user/Desktop/OOP-Projects/JavaAssignment1/.build-tools.cson"
+          name: "Run"
+          command: "java -classpath classes Main"
+          wd: "."
+          env: {}
+          modifier: {}
+          environment:
+            name: "child_process"
+            config:
+              stdoe: "both"
+          stdout:
+            pipeline: []
+          stderr:
+            pipeline: []
+          output: {}
           version: 2
         }
       ]

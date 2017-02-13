@@ -5,9 +5,11 @@ public class Mustang extends Car {
   private int _speed;
   private int _time;
   private int _distanceTraveled;
-}
+  private boolean _cached=false;
 
-public Lambo(int color, int speed, int time, int distanceTraveled) {
+
+
+public Mustang(int color, int speed, int time, int distanceTraveled) {
   _color = color;
   _speed = speed;
   _time = time;
@@ -51,7 +53,6 @@ public int getDistanceTraveled() {
   }
 
   return _distanceTraveled;}
-  }
 
 public void drive() {
   System.out.println("Driving a Mustang");

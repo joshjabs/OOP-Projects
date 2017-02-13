@@ -1,16 +1,16 @@
-CXXFLAGS=-g -Iinclude
+CXXFLAGS=-g -Iinclude -std=c++11
 LDFLAGS=
 
 all : bin/app
 
-tmp/Shape.o : src/Shape.cpp include/Shape.h
+tmp/Person.o : src/Person.cpp include/Person.h
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-tmp/Rectangle.o : src/Rectangle.cpp include/Rectangle.h include/Shape.h
+tmp/Student.o : src/Student.cpp include/Student.h include/Person.h
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-tmp/main.o : src/main.cpp include/Rectangle.h include/Shape.h include/Shape.h
+tmp/main.o : src/main.cpp include/Student.h include/Person.h include/Person.h
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
-bin/app : tmp/main.o tmp/Shape.o tmp/Rectangle.o
+bin/app : tmp/main.o tmp/Person.o tmp/Student.o
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)

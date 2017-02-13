@@ -1,4 +1,4 @@
-package src.car;
+package car;
 
 public class Lambo extends Car {
   private int _color;
