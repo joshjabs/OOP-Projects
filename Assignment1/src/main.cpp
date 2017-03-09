@@ -14,5 +14,20 @@ int main(int arfc, char *argv[]) {
   delete person;
   delete student;
 
-  returne 0;
+/*
+
+	#pragma once
+
+	template <typename T>
+	class Factory {
+		//constructor public Factory() {} is included automatically
+		public virtual T* create() { return new T();}
+		public ~Factory() {};
+	};
+
+
+
+*/
+
+  return 0;
 }
