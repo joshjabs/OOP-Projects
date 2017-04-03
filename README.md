@@ -20,3 +20,7 @@
 #Programming assignment #2:
     Use the CONST structure for a set of classes
     (probably the same set as assignment # 1).
+
+#Diamond Structure in C++
+	Use virtual funcitons to create a diamond structure
+	Liger joins together Lion and Tiger which both use base class Animal
