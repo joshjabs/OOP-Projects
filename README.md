@@ -24,3 +24,6 @@
 #Diamond Structure in C++
 	Use virtual funcitons to create a diamond structure
 	Liger joins together Lion and Tiger which both use base class Animal
+
+#Final Project
+https://docs.google.com/presentation/d/1Jpo1K7eLuKvvV4q-Zv-fCOzf6ty94T2Rej0NW1SKwxs/edit?usp=sharing
