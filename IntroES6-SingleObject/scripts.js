@@ -8,6 +8,11 @@ class Location {
     return this.x + "" + this.y;
   }
 
+  set location(x, y){
+    this.x = x;
+    this.y = y;
+  }
+
   drawlocation(){
     this.element = document.getElementById(this.location);
     this.element.innerText=".";
