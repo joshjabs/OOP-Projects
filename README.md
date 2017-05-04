@@ -6,7 +6,11 @@
     Human Class extends Location class and adds a color.
 
 # Assignment #1 - JavaScript Flavor: DONE
-    This JavaScript assignment shows how you can use ES6's new WeakMaps to privatize fields. It is possible to use Map instead of a WeakMap or even a pair of arrays to mimic this solution. But using WeakMap has one significant advantage — it allows Person instances to be garbage collected. The WeakMap holds keys weakly and that makes both the Person instance and it’s private data eligible for garbage collection when a Person object is no longer referenced by the rest of the application.
+    This JavaScript assignment shows how you can use ES6's new WeakMaps to privatize fields.
+    It is possible to use Map instead of a WeakMap or even a pair of arrays to mimic this solution.
+    But using WeakMap has one significant advantage — it allows Person instances to be garbage collected.
+    The WeakMap holds keys weakly and that makes both the Person instance and it’s private data eligible
+    for garbage collection when a Person object is no longer referenced by the rest of the application.
 
 # Assignment #1 - Java Flavor: DONE
     Has multiple classes that extend the car class
