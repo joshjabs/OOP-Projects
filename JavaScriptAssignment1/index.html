@@ -1,8 +1,6 @@
 <html>
   <p>This JavaScript assignment shows how you can use ES6's new WeakMaps to privatize fields. It is possible to use Map instead of a WeakMap or even a pair of arrays to mimic this solution. But using WeakMap has one significant advantage — it allows Person instances to be garbage collected.</p>
 
-<p>The Map or an array holds objects that they contain strongly. Person is a closure that captures the private variable — that is also a strong reference. Garbage collector can collect an object if there are only weak references to it (or there are no references at all). Because of the two strong references as long as the Person function is reachable from the GC roots then every single Person instance ever created is reachable and thus cannot be garbage collected.</p>
-
 <p>The WeakMap holds keys weakly and that makes both the Person instance and it’s private data eligible for garbage collection when a Person object is no longer referenced by the rest of the application.</p><br>
   <p id="console"></p>
   <script src="scripts.js"></script>
