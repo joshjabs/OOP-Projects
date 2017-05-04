@@ -1,5 +1,8 @@
 # Class Projects for CSCI 375
 
+# Proof of Execution for All Projects
+  https://docs.google.com/document/d/1-B-2Tv-uedImtyUPHt-mrzaNRb_OmES7BXUDat-d0Uc/edit?usp=sharing
+
 # Intro ES6 - Single Object: DONE
     JavaScript sample of Classes and Inheritance.
     Location Class has several properties and functions.
