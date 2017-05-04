@@ -32,7 +32,7 @@
     Write a sample program using the design pattern presented in class: Strategies.
     Build a clone of your teammate's program in a different language: Proxies.
 
-# Diamond Structure in C++
+# Diamond Structure in C++: DONE
 	Use virtual funcitons to create a diamond structure
 	Liger joins together Lion and Tiger which both use base class Animal
 
@@ -40,5 +40,5 @@
     Not a class assignment. Just thought I'd keep it here because it's relevant. Can't get to build.
 
 
-# Final Presentation
+# Final Presentation: DONE
 https://docs.google.com/presentation/d/1Jpo1K7eLuKvvV4q-Zv-fCOzf6ty94T2Rej0NW1SKwxs/edit?usp=sharing
