@@ -18,7 +18,12 @@
     Tried to compile using JDK command line tools
     Compiles now with wrapped build commands - /bin/bash -c 'command'
 
-# Assignment #1 - C++ Flavor: NOT DONE
+# Assignment #1 - C++ Flavor: DONE
+    Dynamically creates a Student object from console input.
+    Student class contains getters and setters for several private variables.
+    Public ID is the only publicly accessible property.
+    Additional little to_string() function prints all private class variables.
+    Compile with g++ -o main main.cpp
 
 # Design Patterns: DONE
     Write a sample program using the design pattern presented in class: Strategies.
